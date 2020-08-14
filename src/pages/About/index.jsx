@@ -1,11 +1,12 @@
 import React from 'react'
 import Cody from '../../assets/images/methumbnail.jpg'
 import Sidebar from '../../components/Sidebar/'
+import Container from '../../components/Container/'
 
 export default function about() {
     return (
         <>
-            <main className="container-fluid">
+            <main className="container-fluid my-3">
                 <div className="row">
                     <div className="col-sm-1"/>
                     <div className="col-sm-10 rounded my-5 py-3 px-4 book-effect">

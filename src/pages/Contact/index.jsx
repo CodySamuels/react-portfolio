@@ -1,4 +1,6 @@
 import React from 'react'
+import Sidebar from '../../components/Sidebar/'
+
 
 export default function index() {
     return (
@@ -32,7 +34,7 @@ export default function index() {
                         </form>
 
                     </div>
-
+                    <Sidebar/>
                 </div>
             </main>
         </>

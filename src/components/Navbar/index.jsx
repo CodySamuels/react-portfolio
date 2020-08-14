@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import About from '../../pages/About/'
-import Contact from '../../pages/Contact/'
-import Portfolio from '../../pages/Portfolio/'
+import "./style.css";
 
 export default function Navbar() {
     return (
@@ -15,9 +13,9 @@ export default function Navbar() {
                 <nav className="collapse navbar-collapse d-flex-inline flex-row-reverse" id="collapsible-navbar">
 
                     <ul className="navbar-nav">
-                        <li className="nav-item"><Link className="nav-link" to={About}>About</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to={Portfolio}>Portfolio</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to={Contact}>Contact</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to={'/about'}>About</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to='/portfolio'>Portfolio</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to='/contact'>Contact</Link></li>
                     </ul>
 
                 </nav>
