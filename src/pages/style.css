@@ -1,0 +1,46 @@
+body {
+    background-image: url(../assets/images/Library.jpeg);
+}
+
+@media screen and (max-width: 540px) {
+    .navbar {
+      background-color: #3e3c44;
+    }
+}
+
+.book-effect {
+    background-color: #ffeedc;
+    /* border-style: hidden solid hidden solid;
+    border-width: 2rem;
+    border-color: #ffe9d1 */
+}
+
+.header-font {
+    font-family: 'Parisienne', cursive;
+}
+
+.icons {
+    font-size: 2.5rem;
+    color: #ffeedc!important
+}
+
+/* UPDATES ICONS */
+.card a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:active {
+    text-decoration: none;
+    color: black;
+}

@@ -1,17 +1,20 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from "./pages/about";
-// import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
-// import Wrapper from "./components/Wrapper";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./pages/About/";
+import Contact from "./pages/Contact/";
+import Navbar from "./components/Navbar/";
+import "./pages/style.css";
 
 function App() {
   return (
     <Router>
+      <Navbar/>
+        <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           {/* <Route exact path="/portfolio" component={Portfolio} /> */}
-          {/* <Route exact path="/contact" component={Contact} /> */}
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
     </Router>
   );
 }
